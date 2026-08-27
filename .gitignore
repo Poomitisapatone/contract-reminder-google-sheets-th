@@ -1,0 +1,28 @@
+# Google Apps Script / clasp
+.clasp.json
+.clasprc.json
+.claspignore.local
+
+# Credentials and secrets
+client_secret*.json
+credentials*.json
+service-account*.json
+*.pem
+*.key
+.env
+.env.*
+
+# Local dependencies and build output
+node_modules/
+dist/
+coverage/
+*.log
+*.zip
+*.inspect.ndjson
+*-preview/
+.tmp*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
